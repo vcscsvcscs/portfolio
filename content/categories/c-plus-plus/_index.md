@@ -1,0 +1,6 @@
++++
+title = "C++"
+description = "Modern C++ features, patterns and performance techniques."
+draft = false
+date = 2025-09-28T23:21:06+01:00
++++

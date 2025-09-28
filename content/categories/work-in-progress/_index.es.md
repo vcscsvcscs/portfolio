@@ -1,0 +1,7 @@
++++
+title = "En Progreso"
+description = "Entradas sobre proyectos en curso, borradores y exploraciones inacabadas."
+draft = false
+date = 2025-09-28T23:21:06+01:00
+url = "categoria/en-progreso"
++++
