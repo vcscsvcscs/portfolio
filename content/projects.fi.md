@@ -91,7 +91,7 @@ Ad-hoc LLM & kuvagenerointi palveluja Modalin avulla nopeaan prototyyppaukseen.
 ---
 
 ## 📬 Yhteys
-Haluatko osallistua tai testata? LinkedIn: https://www.linkedin.com/in/csongorcsabavargha/ tai issue GitHubon.
+Haluatko osallistua tai testata? LinkedIn: https://www.linkedin.com/in/varghacsongorcsaba/ tai issue GitHubon.
 
 ---
 

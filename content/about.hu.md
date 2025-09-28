@@ -67,7 +67,7 @@ Sakk, Bouldering, Boksz, Foci, Videójátékok, Játékfejlesztés, Olvasás
 ---
 
 ## 🔗 Kapcsolat
-[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/) • [GitHub](https://github.com/vcscsvcscs)
+[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
 Szívesen küldök PDF verziójú önéletrajzot kérésre.

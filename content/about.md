@@ -71,7 +71,7 @@ Chess, Bouldering, Boxing, Football, Video Games, Game Development, Reading
 ---
 
 ## 🔗 Contact
-You can reach me via [Email](mailto:varghacsongorcsaba@gmail.com), [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/), or see my code on [GitHub](https://github.com/vcscsvcscs).
+You can reach me via [Email](mailto:varghacsongorcsaba@gmail.com), [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/), or see my code on [GitHub](https://github.com/vcscsvcscs).
 
 ---
 

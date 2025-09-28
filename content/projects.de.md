@@ -91,7 +91,7 @@ Ad‑hoc LLM & Bildgenerierung Services für schnelles Prototyping mit Modal.
 ---
 
 ## 📬 Kontakt
-Interesse an Mitarbeit oder Tests? LinkedIn: https://www.linkedin.com/in/csongorcsabavargha/ oder Issue im Repo.
+Interesse an Mitarbeit oder Tests? LinkedIn: https://www.linkedin.com/in/varghacsongorcsaba/ oder Issue im Repo.
 
 ---
 

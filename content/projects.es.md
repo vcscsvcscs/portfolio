@@ -91,7 +91,7 @@ Servicios ad‑hoc de LLM & generación de imágenes usando Modal para prototipa
 ---
 
 ## 📬 Contacto
-¿Colaboramos o pruebas algo? LinkedIn: https://www.linkedin.com/in/csongorcsabavargha/ o issue en cualquier repo.
+¿Colaboramos o pruebas algo? LinkedIn: https://www.linkedin.com/in/varghacsongorcsaba/ o issue en cualquier repo.
 
 ---
 

@@ -67,7 +67,7 @@ Ajedrez, Boulder, Boxeo, Fútbol, Videojuegos, Desarrollo de Juegos, Lectura
 ---
 
 ## 🔗 Contacto
-[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/) • [GitHub](https://github.com/vcscsvcscs)
+[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
 Puedo enviar una versión PDF de mi CV si la necesitas.

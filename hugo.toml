@@ -62,7 +62,7 @@ customRemoteJS = []
 # Contact information (custom params structure you can template in layouts)
 [params.contactInfo]
 email = "varghacsongorcsaba@gmail.com"
-linkedin = "https://www.linkedin.com/in/csongorcsabavargha/"
+linkedin = "https://www.linkedin.com/in/varghacsongorcsaba/"
 github = "https://github.com/vcscsvcscs"
 phone = "+36-20-337-9067"
 
@@ -161,7 +161,7 @@ url = "https://github.com/vcscsvcscs"
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 2
-url = "https://www.linkedin.com/in/csongorcsabavargha/"
+url = "https://www.linkedin.com/in/varghacsongorcsaba/"
 
 [[params.social]]
 name = "Email"

@@ -91,7 +91,7 @@ Ad‑hoc LLM & képgenerálás szolgáltatások Modal használatával gyors prot
 ---
 
 ## 📬 Kapcsolat
-Közreműködnél vagy tesztelnél? Keress LinkedInen: https://www.linkedin.com/in/csongorcsabavargha/ vagy nyiss issue-t bármelyik repóban.
+Közreműködnél vagy tesztelnél? Keress LinkedInen: https://www.linkedin.com/in/varghacsongorcsaba/ vagy nyiss issue-t bármelyik repóban.
 
 ---
 

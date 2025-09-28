@@ -67,7 +67,7 @@ Schach, Bouldern, Boxen, Fußball, Videospiele, Game Development, Lesen
 ---
 
 ## 🔗 Kontakt
-[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/) • [GitHub](https://github.com/vcscsvcscs)
+[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
 Gerne sende ich bei Bedarf eine PDF Version meines Lebenslaufes.

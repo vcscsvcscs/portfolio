@@ -67,7 +67,7 @@ Shakki, Bouldering, Nyrkkeily, Jalkapallo, Videopelit, Pelinkehitys, Lukeminen
 ---
 
 ## 🔗 Yhteys
-[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/) • [GitHub](https://github.com/vcscsvcscs)
+[Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
 Tarvittaessa lähetän mielelläni CV:n PDF-muodossa.

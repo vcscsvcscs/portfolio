@@ -92,7 +92,7 @@ Ad‑hoc LLM & image generation services using Modal for fast prototyping and ep
 ---
 
 ## 📬 Contact / Collaboration
-Interested in contributing, testing or co‑creating? Reach out via [LinkedIn](https://www.linkedin.com/in/csongorcsabavargha/) or open an issue in any repo.
+Interested in contributing, testing or co‑creating? Reach out via [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) or open an issue in any repo.
 
 ---
 
