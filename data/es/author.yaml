@@ -1,0 +1,180 @@
+# información sobre ti
+name: "Csongor Csaba Vargha"
+nickname: "Csongor"
+# mensaje de saludo antes de tu nombre. Se verá así: "Hola, soy Csongor"
+greeting: "Hola, soy"
+image: "images/avatar.jpg"
+# información de contacto. Se usará en el pie de página
+contactInfo:
+  email: "varghacsongorcsaba@gmail.com"
+  phone: "+36-20-337-9067"
+  linkedin: "https://www.linkedin.com/in/varghacsongorcsaba/"
+  github: "https://github.com/vcscsvcscs"
+
+# resumen sobre lo que haces
+summary:
+  - Soy un desarrollador cloud con experiencia en diseño, desarrollo y mantenimiento de software en entorno cloud nativo
+  - Soy una persona tranquila, me gusta trabajar en equipo, pero también me desenvuelvo bien trabajando solo
+  - Siempre me esfuerzo por ser profesional e innovador
+  - La calidad de mi trabajo me importa, por lo que siempre trato de sacar lo mejor de ello
+
+# tus habilidades
+skills:
+  - name: Lenguajes de Programación
+    icon: "fas fa-code"
+    summary: "Competente en Go, Python, JavaScript y tecnologías web modernas"
+    keywords:
+      - "Go"
+      - "Python" 
+      - "JavaScript"
+      - "HTML/CSS"
+      - "Node.js"
+      - "Svelte"
+
+  - name: Cloud & DevOps
+    icon: "fas fa-cloud"
+    summary: "Experiencia con plataformas cloud y prácticas DevOps"
+    keywords:
+      - "Azure"
+      - "Oracle Cloud"
+      - "Kubernetes"
+      - "Docker"
+      - "Terraform"
+      - "CI/CD"
+      - "Azure DevOps"
+      - "GitHub Actions"
+      - "Jenkins"
+
+  - name: Bases de Datos & Monitoreo
+    icon: "fas fa-database"
+    summary: "Trabajo con varios sistemas de bases de datos y herramientas de monitoreo"
+    keywords:
+      - "MongoDB"
+      - "CosmosDB"
+      - "Redis"
+      - "Prometheus"
+      - "OpenTelemetry"
+
+  - name: IA & Innovación
+    icon: "fas fa-brain"
+    summary: "Experiencia con tecnologías IA/ML y programas de innovación"
+    keywords:
+      - "IA Generativa"
+      - "OpenAI"
+      - "Sistemas RAG"
+      - "Integración LLM"
+      - "Analítica basada en IA"
+
+# tus habilidades blandas
+softSkills:
+  - name: "Colaboración en Equipo"
+    percentage: 95
+  - name: "Resolución de Problemas"
+    percentage: 90
+  - name: "Liderazgo"
+    percentage: 85
+  - name: "Comunicación" 
+    percentage: 88
+  - name: "Innovación"
+    percentage: 92
+
+# tus certificaciones
+certifications:
+  - name: "Licenciatura en Ciencias de la Computación"
+    body: "Universidad Eötvös Loránd"
+    year: 2022
+  - name: "Intercambio Erasmus"
+    body: "Universitat Politècnica de València"
+    year: 2021
+
+# tus proyectos
+projects:
+  - name: "Marco KPI Metron"
+    summary: "Sistema de agregación de datos que recopila datos de control de versiones, sistema de tickets y pipelines para análisis integral"
+    timeline: "2022 - Presente"
+    url: "#"
+    tags: ["Go", "Python", "Análisis de Datos", "Microservicios"]
+    
+  - name: "Chat RAG de Documentación"
+    summary: "Construí sistema de chat RAG para documentación con presentación ejecutiva"
+    timeline: "2024"
+    url: "#"
+    tags: ["IA", "RAG", "Documentación", "Innovación"]
+    
+  - name: "Plataforma de Análisis de Logs GenAI"
+    summary: "Diseñé e implementé plataforma de análisis de logs basada en IA con infraestructura"
+    timeline: "2024"
+    url: "#"
+    tags: ["IA", "Análisis", "Infraestructura", "Cloud"]
+
+# tus publicaciones recientes
+recentPosts:
+  enable: true
+  showTags: true
+  
+# tus logros
+achievements:
+  - title: "Seguridad del Presupuesto"
+    summary: "Logré asegurar el presupuesto del departamento de aproximadamente 300,000€ a través de la entrega exitosa de proyectos"
+    image: "images/achievement1.png"
+    
+  - title: "Desarrollo de Productos"
+    summary: "Colaboré con múltiples equipos creando 2 nuevos productos y 3 nuevas características"
+    image: "images/achievement2.png"
+    
+  - title: "Refactorización de Código"
+    summary: "Refactoricé y reescribí 2-3 bases de código según principios SOLID"
+    image: "images/achievement3.png"
+
+# tu educación
+education:
+  - degree: "Licenciatura en Ciencias"
+    institution: "Universidad Eötvös Loránd"
+    field: "Ciencias de la Computación"
+    startDate: "2019"
+    endDate: "2022"
+    grade: 
+      scale: ""
+      achieved: ""
+    
+  - degree: "Intercambio Erasmus"
+    institution: "Universitat Politècnica de València (UPV)"
+    field: "Ciencias de la Computación"
+    startDate: "2021"
+    endDate: "2021"
+    grade:
+      scale: ""
+      achieved: ""
+
+# tus experiencias
+experiences:
+  - company: "Robert Bosch Kft."
+    position: "Desarrollador Cloud y Desarrollador de Aplicaciones de Negocio"
+    startDate: "2022 Q4"
+    endDate: "Presente"
+    responsibilities:
+      - "Refactoricé bases de código Go/Python: mantenibles, eficientes, cloud-nativas, concurrentes, instrumentadas"
+      - "Construí chat RAG para documentos; presenté a ejecutivos a través de programa de innovación interno"
+      - "Desarrollé/mantuve CI/CD (Azure, Jenkins, GitHub); construí tareas/acciones personalizadas"
+      - "Diseñé plataforma de análisis de logs GenAI (infraestructura + aplicación)"
+      - "Desarrollé procesamiento asíncrono para clúster seguro on-premises"
+      - "Entregué KPIs E2E: ingesta, procesamiento, dashboards, colaboración con clientes"
+      - "Rediseñé pipeline de datos monolítico → microservicios escalables (Argo Workflows)"
+      - "Migré aplicaciones, infraestructura y despliegues de un entorno cloud a otro"
+
+# tus pasatiempos
+hobbies:
+  - name: "Ajedrez"
+    icon: "fas fa-chess"
+  - name: "Escalada en Roca"
+    icon: "fas fa-mountain"
+  - name: "Boxeo"
+    icon: "fas fa-fist-raised"
+  - name: "Fútbol"
+    icon: "fas fa-football-ball"
+  - name: "Videojuegos"
+    icon: "fas fa-gamepad"
+  - name: "Desarrollo de Juegos"
+    icon: "fas fa-code"
+  - name: "Lectura"
+    icon: "fas fa-book"

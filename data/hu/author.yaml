@@ -1,0 +1,180 @@
+# információk rólad
+name: "Vargha Csongor Csaba"
+nickname: "Csongor"
+# üdvözlő üzenet a neved előtt. Így fog kinézni: "Szia, én vagyok Csongor"
+greeting: "Szia, én vagyok"
+image: "images/avatar.jpg"
+# kapcsolattartási információk. Ezek a láblécben lesznek használva
+contactInfo:
+  email: "varghacsongorcsaba@gmail.com"
+  phone: "+36-20-337-9067"
+  linkedin: "https://www.linkedin.com/in/varghacsongorcsaba/"
+  github: "https://github.com/vcscsvcscs"
+
+# rövid összefoglaló arról, mit csinálsz
+summary:
+  - Felhő fejlesztő vagyok, tapasztalattal a felhő natív környezetben történő szoftver tervezésben, fejlesztésben és karbantartásban
+  - Könnyen megférő ember vagyok, szeretek csapatban dolgozni, de egyedül is jól boldogulok
+  - Mindig törekszem arra, hogy professzionális és innovatív legyek
+  - Számomra fontos a munkám minősége, ezért mindig igyekszem a legjobbat kihozni belőle
+
+# készségeid
+skills:
+  - name: Programozási nyelvek
+    icon: "fas fa-code"
+    summary: "Jártas Go, Python, JavaScript és modern web technológiákban"
+    keywords:
+      - "Go"
+      - "Python" 
+      - "JavaScript"
+      - "HTML/CSS"
+      - "Node.js"
+      - "Svelte"
+
+  - name: Felhő & DevOps
+    icon: "fas fa-cloud"
+    summary: "Tapasztalat felhő platformokkal és DevOps gyakorlatokkal"
+    keywords:
+      - "Azure"
+      - "Oracle Cloud"
+      - "Kubernetes"
+      - "Docker"
+      - "Terraform"
+      - "CI/CD"
+      - "Azure DevOps"
+      - "GitHub Actions"
+      - "Jenkins"
+
+  - name: Adatbázisok & Monitorozás
+    icon: "fas fa-database"
+    summary: "Különböző adatbázis rendszerekkel és monitorozó eszközökkel való munka"
+    keywords:
+      - "MongoDB"
+      - "CosmosDB"
+      - "Redis"
+      - "Prometheus"
+      - "OpenTelemetry"
+
+  - name: AI & Innováció
+    icon: "fas fa-brain"
+    summary: "Tapasztalat AI/ML technológiákkal és innovációs programokkal"
+    keywords:
+      - "Generatív AI"
+      - "OpenAI"
+      - "RAG Rendszerek"
+      - "LLM Integráció"
+      - "AI-alapú Analitika"
+
+# soft skilljeid
+softSkills:
+  - name: "Csapatmunka"
+    percentage: 95
+  - name: "Problémamegoldás"
+    percentage: 90
+  - name: "Vezetés"
+    percentage: 85
+  - name: "Kommunikáció" 
+    percentage: 88
+  - name: "Innováció"
+    percentage: 92
+
+# végzettségeid
+certifications:
+  - name: "Informatikus BSc"
+    body: "Eötvös Loránd Tudományegyetem"
+    year: 2022
+  - name: "Erasmus Csere"
+    body: "Universitat Politècnica de València"
+    year: 2021
+
+# projektjeid
+projects:
+  - name: "Metron KPI Keretrendszer"
+    summary: "Adataggregációs rendszer verziókezelő, ticketrendszer és pipeline adatok gyűjtésére átfogó analitikához"
+    timeline: "2022 - Jelenleg"
+    url: "#"
+    tags: ["Go", "Python", "Adatanalitika", "Mikroszolgáltatások"]
+    
+  - name: "RAG Dokumentáció Chat"
+    summary: "RAG chat rendszer építése dokumentációhoz vezető prezentációval"
+    timeline: "2024"
+    url: "#"
+    tags: ["AI", "RAG", "Dokumentáció", "Innováció"]
+    
+  - name: "GenAI Log Analitikai Platform"
+    summary: "AI-alapú log analitikai platform tervezése és implementálása infrastruktúrával"
+    timeline: "2024"
+    url: "#"
+    tags: ["AI", "Analitika", "Infrastruktúra", "Felhő"]
+
+# legújabb posztjaid
+recentPosts:
+  enable: true
+  showTags: true
+  
+# eredményeid
+achievements:
+  - title: "Költségvetés Biztosítása"
+    summary: "Sikeresen biztosítottam a részleg körülbelül 300.000€ költségvetését sikeres projektszállítással"
+    image: "images/achievement1.png"
+    
+  - title: "Termékfejlesztés"
+    summary: "Több csapattal együttműködve 2 új terméket és 3 új funkciót hoztam létre"
+    image: "images/achievement2.png"
+    
+  - title: "Kód Refaktorálás"
+    summary: "2-3 kódbázist refaktoráltam és írtam újra SOLID elvek szerint"
+    image: "images/achievement3.png"
+
+# tanulmányaid
+education:
+  - degree: "Informatikus Alapképzés (BSc)"
+    institution: "Eötvös Loránd Tudományegyetem"
+    field: "Informatika"
+    startDate: "2019"
+    endDate: "2022"
+    grade: 
+      scale: ""
+      achieved: ""
+    
+  - degree: "Erasmus Csere"
+    institution: "Universitat Politècnica de València (UPV)"
+    field: "Informatika"
+    startDate: "2021"
+    endDate: "2021"
+    grade:
+      scale: ""
+      achieved: ""
+
+# tapasztalataid
+experiences:
+  - company: "Robert Bosch Kft."
+    position: "Felhő Fejlesztő és Üzleti Alkalmazás Fejlesztő"
+    startDate: "2022 Q4"
+    endDate: "Jelenleg"
+    responsibilities:
+      - "Go/Python kódbázisok refaktorálása: karbantartható, hatékony, felhő-natív, egyidejű, instrumentált"
+      - "RAG chat építése dokumentációhoz; vezetői prezentáció belső innovációs programon keresztül"
+      - "CI/CD fejlesztés/karbantartás (Azure, Jenkins, GitHub); egyedi feladatok/akciók építése"
+      - "GenAI log analitikai platform tervezése (infrastruktúra + alkalmazás)"
+      - "Aszinkron feldolgozás fejlesztése biztonságos helyszíni klaszterhez"
+      - "E2E KPI-k szállítása: adatbevitel, feldolgozás, dashboardok, ügyfél együttműködés"
+      - "Monolitikus adatcsővezeték újratervezése → skálázható mikroszolgáltatások (Argo Workflows)"
+      - "Alkalmazások, infrastruktúra és telepítések migrálása egyik felhő környezetből a másikba"
+
+# hobbijaid
+hobbies:
+  - name: "Sakk"
+    icon: "fas fa-chess"
+  - name: "Bouldering"
+    icon: "fas fa-mountain"
+  - name: "Boksz"
+    icon: "fas fa-fist-raised"
+  - name: "Foci"
+    icon: "fas fa-football-ball"
+  - name: "Videójátékok"
+    icon: "fas fa-gamepad"
+  - name: "Játékfejlesztés"
+    icon: "fas fa-code"
+  - name: "Olvasás"
+    icon: "fas fa-book"

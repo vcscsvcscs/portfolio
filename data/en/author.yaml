@@ -1,0 +1,180 @@
+# some information about you
+name: "Csongor Csaba Vargha"
+nickname: "Csongor"
+# greeting message before your name. it will look like: "Hi, I am Csongor"
+greeting: "Hi, I am"
+image: "avatar.svg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "varghacsongorcsaba@gmail.com"
+  phone: "+36-20-337-9067"
+  linkedin: "https://www.linkedin.com/in/varghacsongorcsaba/"
+  github: "https://github.com/vcscsvcscs"
+
+# some summary about what you do
+summary:
+  - I am a cloud developer with experience in designing, developing and maintaining software in cloud native environment
+  - I am easygoing, I like to work in a team, but I am also fine working alone
+  - I always make an effort to be professional and innovative
+  - The quality of my work matters to me, so I always try to make the most out of it
+
+# your skills
+skills:
+  - name: Programming Languages
+    icon: "fas fa-code"
+    summary: "Proficient in Go, Python, JavaScript, and modern web technologies"
+    keywords:
+      - "Go"
+      - "Python" 
+      - "JavaScript"
+      - "HTML/CSS"
+      - "Node.js"
+      - "Svelte"
+
+  - name: Cloud & DevOps
+    icon: "fas fa-cloud"
+    summary: "Experienced with cloud platforms and DevOps practices"
+    keywords:
+      - "Azure"
+      - "Oracle Cloud"
+      - "Kubernetes"
+      - "Docker"
+      - "Terraform"
+      - "CI/CD"
+      - "Azure DevOps"
+      - "GitHub Actions"
+      - "Jenkins"
+
+  - name: Databases & Monitoring
+    icon: "fas fa-database"
+    summary: "Working with various database systems and monitoring tools"
+    keywords:
+      - "MongoDB"
+      - "CosmosDB"
+      - "Redis"
+      - "Prometheus"
+      - "OpenTelemetry"
+
+  - name: AI & Innovation
+    icon: "fas fa-brain"
+    summary: "Experience with AI/ML technologies and innovation programs"
+    keywords:
+      - "Generative AI"
+      - "OpenAI"
+      - "RAG Systems"
+      - "LLM Integration"
+      - "AI-powered Analytics"
+
+# your soft skills
+softSkills:
+  - name: "Team Collaboration"
+    percentage: 95
+  - name: "Problem Solving"
+    percentage: 90
+  - name: "Leadership"
+    percentage: 85
+  - name: "Communication" 
+    percentage: 88
+  - name: "Innovation"
+    percentage: 92
+
+# your certifications
+certifications:
+  - name: "Computer Science BSc"
+    body: "Eötvös Loránd University"
+    year: 2022
+  - name: "Erasmus Exchange"
+    body: "Universitat Politècnica de València"
+    year: 2021
+
+# your projects
+projects:
+  - name: "Metron KPI Framework"
+    summary: "Data aggregation system collecting version control, ticket system, and pipeline data for comprehensive analytics"
+    timeline: "2022 - Present"
+    url: "#"
+    tags: ["Go", "Python", "Data Analytics", "Microservices"]
+    
+  - name: "RAG Documentation Chat"
+    summary: "Built RAG chat system for documentation with executive presentation"
+    timeline: "2024"
+    url: "#"
+    tags: ["AI", "RAG", "Documentation", "Innovation"]
+    
+  - name: "GenAI Log Analytics Platform"
+    summary: "Designed and implemented AI-powered log analytics platform with infrastructure"
+    timeline: "2024"
+    url: "#"
+    tags: ["AI", "Analytics", "Infrastructure", "Cloud"]
+
+# your recent posts
+recentPosts:
+  enable: true
+  showTags: true
+  
+# your achievements
+achievements:
+  - title: "Budget Security"
+    summary: "Managed to secure department budget of approximately 300,000€ through successful project delivery"
+    image: "images/achievement1.png"
+    
+  - title: "Product Development"
+    summary: "Collaborated with multiple teams creating 2 new products and 3 new features"
+    image: "images/achievement2.png"
+    
+  - title: "Code Refactoring"
+    summary: "Refactored and rewrote 2-3 codebases according to SOLID principles"
+    image: "images/achievement3.png"
+
+# your education
+education:
+  - degree: "Bachelor of Science"
+    institution: "Eötvös Loránd University"
+    field: "Computer Science"
+    startDate: "2019"
+    endDate: "2022"
+    grade: 
+      scale: ""
+      achieved: ""
+    
+  - degree: "Erasmus Exchange"
+    institution: "Universitat Politècnica de València (UPV)"
+    field: "Computer Science"
+    startDate: "2021"
+    endDate: "2021"
+    grade:
+      scale: ""
+      achieved: ""
+
+# your experiences
+experiences:
+  - company: "Robert Bosch Kft."
+    position: "Cloud Developer and Business Application Developer"
+    startDate: "2022 Q4"
+    endDate: "Present"
+    responsibilities:
+      - "Refactored Go/Python codebases: maintainable, efficient, cloud-native, concurrent, instrumented"
+      - "Built RAG chat for docs; pitched to execs via internal innovation program"
+      - "Developed/maintained CI/CD (Azure, Jenkins, GitHub); built custom tasks/actions"
+      - "Designed GenAI log analytics platform (infra + app)"
+      - "Developed async processing for secure on-prem cluster"
+      - "Delivered E2E KPIs: ingestion, processing, dashboards, client collaboration"
+      - "Redesigned monolith data pipeline → scalable microservices (Argo Workflows)"
+      - "Migrated applications, infra and deployments from one cloud environment to another"
+
+# your hobbies
+hobbies:
+  - name: "Chess"
+    icon: "fas fa-chess"
+  - name: "Bouldering"
+    icon: "fas fa-mountain"
+  - name: "Boxing"
+    icon: "fas fa-fist-raised"
+  - name: "Football"
+    icon: "fas fa-football-ball"
+  - name: "Video Games"
+    icon: "fas fa-gamepad"
+  - name: "Game Development"
+    icon: "fas fa-code"
+  - name: "Reading"
+    icon: "fas fa-book"

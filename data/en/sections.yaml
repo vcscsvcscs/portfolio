@@ -1,0 +1,20 @@
+sections:
+  - section:
+      name: hero
+      id: hero
+      enable: true
+      weight: 10
+      showOnNavbar: true
+      template: sections/hero.html
+      content:
+        title: "Cloud Developer & Innovation Enthusiast"
+        subtitle: "Hello, I am"
+        designation: "Cloud Developer"
+        location: "Budapest, Hungary"
+        company:
+          name: "Robert Bosch Kft."
+          url: "https://www.bosch.com/"
+        summary:
+          - "Building scalable cloud-native solutions"
+          - "Passionate about AI/ML and modern software architecture"
+          - "Experienced in Go, Python, and DevOps practices"

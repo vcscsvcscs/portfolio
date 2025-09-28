@@ -1,0 +1,36 @@
+# Site Information
+site:
+  title: "Csongor Csaba Vargha"
+  description: "Cloud Developer Portfolio"
+  author: "Csongor Csaba Vargha"
+  
+# Contact Information  
+contactInfo:
+  email: "varghacsongorcsaba@gmail.com"
+  phone: "+36-20-337-9067"
+  linkedin: "https://www.linkedin.com/in/varghacsongorcsaba/"
+  github: "https://github.com/vcscsvcscs"
+
+# Navigation
+navigation:
+  logo: "images/avatar.jpg"
+  brand: "Csongor Vargha"
+
+# Footer
+footer:
+  enable: true
+  content: "© 2024 Csongor Csaba Vargha. All rights reserved."
+
+# Theme customization
+theme:
+  defaultTheme: "light"
+  disableThemeToggle: false
+  
+# Analytics (optional)
+analytics:
+  google:
+    id: ""
+  
+# Comments (optional)  
+comments:
+  enable: false

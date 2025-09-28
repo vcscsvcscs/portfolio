@@ -1,0 +1,73 @@
+{{/* Clean Safe Home Partial Override */}}
+{{ $lang := site.Language.Lang }}
+{{ $data := site.Data }}
+{{ $sectionsData := (index $data $lang).sections | default $data.sections }}
+{{ if and (not (reflect.IsSlice $sectionsData)) (isset $sectionsData "sections") }}
+  {{ $sectionsData = $sectionsData.sections }}
+{{ end }}
+{{ if not (reflect.IsSlice $sectionsData) }}
+  {{ $sectionsData = slice }}
+{{ end }}
+{{ $normalized := slice }}
+{{ range $sectionsData }}
+  {{ $item := . }}
+  {{ if and (reflect.IsMap $item) (not (isset $item "section")) (or (isset $item "id") (isset $item "name")) }}
+    {{ $item = dict "section" $item }}
+  {{ end }}
+  {{ if and (reflect.IsMap $item) (isset $item "section") }}
+    {{ $normalized = $normalized | append $item }}
+  {{ end }}
+{{ end }}
+{{ $sortable := slice }}
+{{ range $normalized }}
+  {{ $sec := .section }}
+  {{ $w := 9999 }}
+  {{ if and (isset $sec "weight") $sec.weight }}
+    {{ $w = $sec.weight }}
+  {{ end }}
+  {{ $sortable = $sortable | append (dict "w" $w "item" .) }}
+{{ end }}
+{{ $sortable = sort $sortable "w" }}
+{{ $sections := slice }}
+{{ range $sortable }}
+  {{ $sections = $sections | append .item }}
+{{ end }}
+{{ $hero := where $sections "section.id" "eq" "hero" | first 1 | default (where $sections "section.name" "eq" "hero" | first 1) }}
+{{ $author := (index $data $lang).author | default $data.author }}
+<section id="home" class="home-wrapper py-5">
+  <div class="container">
+    {{ if $hero }}
+      {{ $h := (index $hero 0).section }}
+      <div class="row align-items-center">
+        <div class="col-md-7 mb-4 mb-md-0">
+          <h5 class="text-muted mb-2">{{ with $h.content.subtitle }}{{ . }}{{ else }}{{ with $author.greeting }}{{ . }}{{ end }}{{ end }}</h5>
+          <h1 class="display-5 fw-bold mb-2">{{ with $h.content.title }}{{ . }}{{ else }}{{ $author.name }}{{ end }}</h1>
+          <h4 class="mb-3 text-primary">{{ with $h.content.designation }}{{ . }}{{ else }}{{ with $author.designation }}{{ . }}{{ end }}{{ end }}</h4>
+          <div class="lead mb-4">
+            {{ $summ := cond (and (isset $h "content") (isset $h.content "summary")) $h.content.summary $author.summary }}
+            {{ if reflect.IsSlice $summ }}
+              {{ range $summ }}<p class="mb-1">{{ . }}</p>{{ end }}
+            {{ else if $summ }}<p>{{ $summ }}</p>{{ end }}
+          </div>
+          <div class="d-flex flex-wrap gap-2">
+            {{ with $author.contactInfo.email }}<a class="btn btn-outline-primary btn-sm" href="mailto:{{ . }}">Email</a>{{ end }}
+            {{ with $author.contactInfo.linkedin }}<a class="btn btn-outline-primary btn-sm" target="_blank" href="{{ . }}">LinkedIn</a>{{ end }}
+            {{ with $author.contactInfo.github }}<a class="btn btn-outline-primary btn-sm" target="_blank" href="{{ . }}">GitHub</a>{{ end }}
+          </div>
+        </div>
+        <div class="col-md-5 text-center">
+          {{ $imgPath := "images/avatar.svg" }}
+          {{ if isset $author "image" }}{{ $imgPath = $author.image }}{{ end }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img class="img-fluid rounded-circle shadow" style="max-width:260px;" alt="avatar" src="{{ $res.RelPermalink }}" />
+          {{ else }}
+            <img class="img-fluid rounded-circle shadow" style="max-width:260px;" alt="avatar" src="/images/avatar.svg" />
+          {{ end }}
+        </div>
+      </div>
+    {{ else }}
+      <div class="alert alert-warning">Hero section not configured.</div>
+    {{ end }}
+  </div>
+</section>

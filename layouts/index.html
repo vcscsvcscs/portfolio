@@ -1,0 +1,17 @@
+{{ define "main" }}{{ define "main" }}
+
+  {{/* Local index override to avoid theme sort issue */}}
+
+  {{ partial "sections/home.html" . }}<h1>DEBUG: Testing if main template works</h1>
+
+{{ end }}
+{{ $author := site.Data.en.author }}
+{{ $sections := site.Data.en.sections }}
+
+<p>DEBUG: Author data: {{ $author.name }}</p>
+<p>DEBUG: Sections data exists: {{ if $sections }}YES{{ else }}NO{{ end }}</p>
+
+<!-- home section -->
+{{ partial "sections/home.html" . }}
+
+{{ end }}
