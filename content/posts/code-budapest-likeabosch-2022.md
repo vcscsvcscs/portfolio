@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 I participated in the Code Budapest #LikeABosch 2022 hackathon with my team, where we worked on the Software Challenge. This event was a significant milestone in my career, as it led directly to my recruitment by Bosch.
 
+![Code Budapest #LikeABosch 2022 Hackathon](/images/code-like-a-bosch.png)
+
 ## The Challenge
 
 We tackled the challenge of processing Ego's sensor array data to build a comprehensive object tracking system around vehicles. The key innovation was our ability to track objects even when they were in sensor blind spots, addressing a critical challenge in autonomous vehicle perception systems.

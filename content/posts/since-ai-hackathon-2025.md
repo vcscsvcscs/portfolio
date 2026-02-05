@@ -14,6 +14,8 @@ categories = ["hackathons"]
 
 I'm thrilled to share that my team and I won **1st place** in the Sandvik Main Challenge at the Since AI Hackathon in Turku, Finland! After 48 hours of intense teamwork, we developed a state-of-the-art AI solution to a real-world industry problem, and I'm incredibly proud of what we achieved.
 
+![Our winning team at the Since AI Hackathon 2025](/images/sandvik-team-pic.jpeg)
+
 ## The Challenge
 
 We tackled Sandvik's customer support challenge by building a custom AI classification model and data pipeline to streamline customer support requests and route them to the appropriate support teams. This solution addresses a critical operational need: efficiently categorizing and distributing incoming support tickets to ensure faster response times and better resource allocation.

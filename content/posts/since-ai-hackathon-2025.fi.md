@@ -14,6 +14,8 @@ categories = ["hackathons"]
 
 Olen innoissani kertoa, että tiimini ja minä voitimme **1. sijan** Sandvikin päähajottelussa Since AI Hackathonissa Turussa! 48 tunnin intensiivisen tiimityön jälkeen kehitimme huippuluokan tekoälyratkaisun todelliseen teollisuusongelmaan, ja olen erittäin ylpeä saavutuksestamme.
 
+![Voittava tiimimme Since AI Hackathon 2025 -kilpailussa](/images/sandvik-team-pic.jpeg)
+
 ## Haaste
 
 Ratkaisimme Sandvikin asiakastuen haasteen rakentamalla räätälöidyn tekoälyluokittelumallin ja dataputken, joka sujuvoittaa asiakastuen pyyntöjen käsittelyä ja reitittää ne oikeille tukitiimeille. Tämä ratkaisu vastaa kriittiseen operatiiviseen tarpeeseen: pyyntöjen tehokas luokittelu ja jakelu varmistaa nopeammat vastausajat ja paremman resurssien allokoinnin.

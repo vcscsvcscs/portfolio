@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 Participé en el Code Budapest #LikeABosch 2022 hackathon con mi equipo, donde trabajamos en el Desafío de Software. Este evento fue un hito significativo en mi carrera, ya que condujo directamente a mi reclutamiento por Bosch.
 
+![Code Budapest #LikeABosch 2022 Hackathon](/images/code-like-a-bosch.png)
+
 ## El Desafío
 
 Abordamos el desafío de procesar datos del array de sensores de Ego para construir un sistema integral de seguimiento de objetos alrededor de vehículos. La innovación clave fue nuestra capacidad de rastrear objetos incluso cuando estaban en puntos ciegos de sensores, abordando un desafío crítico en sistemas de percepción de vehículos autónomos.

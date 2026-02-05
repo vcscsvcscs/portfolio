@@ -14,6 +14,8 @@ categories = ["hackathons"]
 
 Büszkén osztom meg, hogy csapatom és én **első helyet** nyertünk a Sandvik fő kihívásban a Since AI Hackathonon Turku-ban, Finnországban! 48 órás intenzív csapatmunka után egy korszerű AI megoldást fejlesztettünk egy valós ipari problémára, és rendkívül büszke vagyok az elért eredményünkre.
 
+![Győztes csapatunk a Since AI Hackathon 2025-ön](/images/sandvik-team-pic.jpeg)
+
 ## A kihívás
 
 A Sandvik ügyfélszolgálati kihívását egy egyedi AI osztályozó modell és adatfolyam fejlesztésével oldottuk meg, amely leegyszerűsíti az ügyfélszolgálati kéréseket és a megfelelő támogatási csapatokhoz irányítja őket. Ez a megoldás egy kritikus működési igényt szolgál: a beérkező támogatási jegyek hatékony kategorizálása és elosztása, hogy gyorsabb válaszidőket és jobb erőforrás-allokációt biztosítsunk.

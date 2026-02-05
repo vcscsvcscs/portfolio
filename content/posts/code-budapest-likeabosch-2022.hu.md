@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 Részt vettem a Code Budapest #LikeABosch 2022 hackathonon csapatommal, ahol a Szoftver kihíváson dolgoztunk. Ez az esemény jelentős mérföldkő volt a karrieremben, mivel közvetlenül a Bosch általi toborzásomhoz vezetett.
 
+![Code Budapest #LikeABosch 2022 Hackathon](/images/code-like-a-bosch.png)
+
 ## A kihívás
 
 Az Ego szenzor tömb adatainak feldolgozásával foglalkoztunk, hogy egy átfogó objektumkövető rendszert építsünk a járművek körül. A kulcs innováció az volt, hogy képesek voltunk objektumokat követni még akkor is, amikor a szenzorok vakfoltjában voltak, ezzel egy kritikus kihívást kezelve az autonóm járművek észlelési rendszereiben.

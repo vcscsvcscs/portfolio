@@ -14,6 +14,8 @@ categories = ["hackathons"]
 
 Estoy emocionado de compartir que mi equipo y yo ganamos el **1er lugar** en el Desafío Principal de Sandvik en el Since AI Hackathon en Turku, Finlandia! Después de 48 horas de intenso trabajo en equipo, desarrollamos una solución de IA de vanguardia para un problema real de la industria, y estoy increíblemente orgulloso de lo que logramos.
 
+![Nuestro equipo ganador en el Since AI Hackathon 2025](/images/sandvik-team-pic.jpeg)
+
 ## El Desafío
 
 Abordamos el desafío de atención al cliente de Sandvik construyendo un modelo de clasificación de IA personalizado y una canalización de datos para optimizar las solicitudes de atención al cliente y enrutarlas a los equipos de soporte apropiados. Esta solución aborda una necesidad operativa crítica: categorizar y distribuir eficientemente los tickets de soporte entrantes para garantizar tiempos de respuesta más rápidos y una mejor asignación de recursos.

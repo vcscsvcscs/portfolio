@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 Olen kiitollinen tilaisuudesta osallistua European Defense Tech Hackathoniin Milanossa, jossa opin lisää puolustusteknologiasta ja tapasin monia lahjakkaita ammattilaisia. Olen ylpeä kertoa, että tiimimme sijoittui **3. sijalle** innovatiivisella projektillamme!
 
+![Tiimimme European Defense Tech Hackathonissa, Milano](/images/edth-team-pic.png)
+
 ## Projekti: Super Laser 2
 
 Kehitimme **Super Laser 2** -nimisen laserpohjaisen, salaisen drone-to-drone -viestintäjärjestelmän, joka tutkii seuraavan sukupolven turvallista verkottumista kiistellyissä ympäristöissä. Järjestelmä tukee:

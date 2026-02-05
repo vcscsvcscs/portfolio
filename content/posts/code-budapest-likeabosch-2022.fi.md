@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 Osallistuin Code Budapest #LikeABosch 2022 -hackathoniin tiimini kanssa, jossa työskentelimme ohjelmistohaasteen parissa. Tämä tapahtuma oli merkittävä virstanpylväs urallani, koska se johti suoraan rekrytointini Boschiin.
 
+![Code Budapest #LikeABosch 2022 Hackathon](/images/code-like-a-bosch.png)
+
 ## Haaste
 
 Ratkaisimme haasteen käsitellä Egon sensoriryhmän dataa rakentaaksemme kattavan objektiseurantajärjestelmän ajoneuvojen ympärille. Avaininnovaationa oli kykyämme seurata objekteja jopa silloin, kun ne olivat sensorien sokeissa pisteissä, vastaten kriittiseen haasteeseen autonomisten ajoneuvojen havaintijärjestelmissä.

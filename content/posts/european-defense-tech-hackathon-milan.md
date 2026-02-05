@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 I'm grateful for the opportunity to participate in the European Defense Tech Hackathon in Milan, where I learned more about defense technology and connected with many talented professionals. I'm proud to share that our team secured **3rd place** with our innovative project!
 
+![Our team at the European Defense Tech Hackathon, Milan](/images/edth-team-pic.png)
+
 ## The Project: Super Laser 2
 
 We developed **Super Laser 2**, a laser-based, stealth drone-to-drone communication system exploring next-generation secure networking in contested environments. The system supports:

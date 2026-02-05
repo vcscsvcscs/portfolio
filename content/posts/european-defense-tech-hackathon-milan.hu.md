@@ -13,6 +13,8 @@ categories = ["hackathons"]
 
 Hálás vagyok a lehetőségért, hogy részt vehettem az European Defense Tech Hackathonon Milánóban, ahol többet tanultam a védelmi technológiáról és sok tehetséges szakemberrel találkoztam. Büszke vagyok, hogy csapatunk **harmadik helyet** szerzett innovatív projektünkkel!
 
+![Csapatunk az European Defense Tech Hackathonon, Milánó](/images/edth-team-pic.png)
+
 ## A projekt: Super Laser 2
 
 Fejlesztettünk egy **Super Laser 2** nevű lézeralapú, rejtett drone-drone kommunikációs rendszert, amely a következő generációs biztonságos hálózati kapcsolatokat kutatja ellenséges környezetben. A rendszer támogatja:

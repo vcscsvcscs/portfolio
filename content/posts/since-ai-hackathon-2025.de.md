@@ -14,6 +14,8 @@ categories = ["hackathons"]
 
 Ich freue mich sehr, mitteilen zu können, dass mein Team und ich den **1. Platz** in der Sandvik Hauptherausforderung beim Since AI Hackathon in Turku, Finnland, gewonnen haben! Nach 48 Stunden intensiver Teamarbeit entwickelten wir eine hochmoderne KI-Lösung für ein reales Industrieproblem, und ich bin unglaublich stolz auf das, was wir erreicht haben.
 
+![Unser siegreiches Team beim Since AI Hackathon 2025](/images/sandvik-team-pic.jpeg)
+
 ## Die Herausforderung
 
 Wir bewältigten Sandviks Kundensupport-Herausforderung, indem wir ein maßgeschneidertes KI-Klassifizierungsmodell und eine Datenpipeline entwickelten, um Kundensupport-Anfragen zu optimieren und sie an die entsprechenden Support-Teams weiterzuleiten. Diese Lösung adressiert einen kritischen operativen Bedarf: die effiziente Kategorisierung und Verteilung eingehender Support-Tickets, um schnellere Reaktionszeiten und eine bessere Ressourcenallokation zu gewährleisten.
