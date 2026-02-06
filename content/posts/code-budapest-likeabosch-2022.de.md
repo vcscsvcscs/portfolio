@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2022-06-01T00:00:00+01:00
+date = 2022-10-05T00:00:00+01:00
 title = "Code Budapest #LikeABosch 2022 Hackathon"
 summary = "Ich nahm am Code Budapest #LikeABosch Hackathon teil und baute ein Objektverfolgungssystem mit Egos Sensordaten, um Objekte um Fahrzeuge herum zu verfolgen, auch in sensorischen toten Winkeln."
 tags = ["hackathon", "sensor-fusion", "object-tracking", "automotive", "python"]
