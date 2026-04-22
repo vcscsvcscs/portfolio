@@ -1,6 +1,6 @@
 +++
 title = "Acerca de"
-description = "Acerca de Csongor Csaba Vargha – Desarrollador Cloud"
+description = "Acerca de Csongor Csaba Vargha – Ingeniero Cloud & IA"
 slug = "about"
 aliases = ["sobre-mi", "perfil"]
 author = "Csongor Csaba Vargha"
@@ -9,7 +9,7 @@ toc = true
 
 # Hola, soy Csongor
 
-Soy desarrollador cloud con experiencia en diseñar, desarrollar y mantener software cloud-native. Disfruto trabajar en equipo pero también rindo muy bien de forma autónoma. Me importan la calidad del código, la experiencia del desarrollador y el valor entregado. La profesionalidad, la innovación y el enfoque en la excelencia guían mi trabajo.
+Soy Ingeniero Cloud & IA y entrego sistemas resilientes, eficientes en coste y observables sobre AWS, Azure, Oracle Cloud y entornos on-premises. Soy agnóstico al proveedor cloud y acepto proyectos independientemente de la plataforma subyacente — actualmente con una especialización profunda en AWS Bedrock y Bedrock AgentCore a través de mi trabajo como contractor en Apex Lab. Acompaño a organizaciones en arquitectura cloud, migraciones e IA Generativa aplicada, desde plataformas greenfield hasta la modernización de estructuras existentes, y soy igualmente eficaz trabajando dentro del equipo del cliente o como ingeniero independiente.
 
 ---
 
@@ -17,52 +17,67 @@ Soy desarrollador cloud con experiencia en diseñar, desarrollar y mantener soft
 
 | Área | Destacados |
 |------|------------|
-| Producto & Entrega | Colaboración multi-equipo y clientes: 2 nuevos productos + 3 nuevas funcionalidades (~300k€ presupuesto asegurado) |
-| Plataforma & DX | Funciones internas e infraestructura para plataforma de analítica de datos → desarrollo más rápido |
-| Modernización | Refactor / reescritura de 2–3 bases de código aplicando principios SOLID |
-| Innovación | Participación en programas internos de innovación; pionero interno en LLMs & IA Generativa |
-| Arquitectura | Pipeline de datos monolítica → microservicios escalables (Argo Workflows) |
+| Arquitectura Cloud | Diseños greenfield y arquitecturas de migración agnósticas al proveedor entre on-premises y cualquier nube principal (AWS, Azure, OCI), igualando o mejorando fiabilidad, rendimiento y coste de los sistemas originales |
+| Especialización AWS | Arquitecturas AWS-native y rediseños de migraciones hacia AWS, alineadas con el Well-Architected Framework, entregadas actualmente a través de Apex Lab |
+| GenAI Aplicada | POCs de workflows multi-agente y soluciones de IA Generativa sobre AWS Bedrock y Bedrock AgentCore, con patrones portables a otros proveedores |
+| Producto & Entrega | Colaboración multi-equipo y con clientes: 2 nuevos productos y 3 nuevas funcionalidades (~300k€ presupuesto asegurado) |
+| Plataforma & DX | Funcionalidades internas e infraestructura para una plataforma de analítica de datos, acelerando entrega y mejorando la experiencia del desarrollador |
+| Modernización | Refactor y reescritura de 2–3 bases de código aplicando principios SOLID |
+| Innovación | Adopción temprana de LLMs e IA Generativa (incluyendo RAG e inteligencia sobre logs) a través de programas internos de innovación |
+| Arquitectura | Descomposición de una pipeline de datos monolítica en microservicios escalables con Argo Workflows y procesamiento asíncrono seguro en clúster on-premises |
 
 ---
 
-## 💼 Experiencia
+## 💼 Experiencia Profesional
 
-### Robert Bosch Kft. (Q4 2022 – Presente)  
+### Apex Lab — AWS Contracting Agency (Noviembre 2025 – Presente)
+**Contractor en Ingeniería Cloud & IA**  
+Entrego engagements enfocados en AWS: auditorías de infraestructura, arquitectura greenfield, migraciones a la nube e IA Generativa aplicada.
+
+#### Áreas principales
+- Auditoría de infraestructura y software existentes, con recomendaciones accionables en fiabilidad, seguridad, operabilidad y optimización de coste
+- Diseño de arquitecturas de referencia AWS-native para proyectos greenfield, alineadas con el AWS Well-Architected Framework
+- Rediseño de migraciones desde on-premises y otros proveedores cloud hacia AWS, entregando estados objetivo que igualan o superan a los sistemas origen en fiabilidad, rendimiento y coste
+- Construcción de POCs de IA Generativa — incluyendo workflows multi-agente y sistemas agénticos — usando AWS Bedrock y Bedrock AgentCore
+
+### Robert Bosch Kft. (Q4 2022 – Noviembre 2025)
 **Cloud Developer & Business Application Developer**  
-Metron – Framework de KPIs y sistema de agregación de datos (similar a DevLake) que integra datos de VCS, tickets y pipelines para dashboards y reportes ejecutivos y técnicos.
+Trabajo en Metron — un framework de KPIs y sistema de agregación de datos (comparable a DevLake) que integra datos de VCS, ticketing y pipelines CI/CD para producir dashboards y reportes de KPIs dirigidos a ingenieros, management y liderazgo.
 
 #### Impacto Técnico
-- Refactor de servicios Go & Python (mantenibilidad, observabilidad, concurrencia)
-- Rediseño de pipeline de datos → arquitectura de microservicios (Argo Workflows)
-- Procesamiento asíncrono seguro en clúster on-prem
+- Refactor de servicios Go y Python (mantenibilidad, observabilidad, concurrencia y operación cloud-native)
+- Rediseño de la pipeline de datos monolítica hacia una arquitectura de microservicios con Argo Workflows
+- Procesamiento asíncrono y seguro en clúster on-premises
 - Migración de aplicaciones e infraestructura entre entornos cloud
-- Instrumentación con Prometheus y OpenTelemetry
+- Instrumentación con Prometheus y OpenTelemetry y logging estructurado
 
 #### Innovación & Entrega
-- Chat RAG sobre documentación interna
-- Diseño de plataforma de analítica de logs con IA Generativa
-- Entrega ciclo E2E de KPIs: ingesta → procesamiento → dashboards
-- Automatizaciones CI/CD (Azure, Jenkins, GitHub Actions)
-- Mejoras de Developer Experience mediante plataforma interna
+- Chat RAG sobre documentación interna, presentado a ejecutivos en un programa interno de innovación
+- Diseño de una plataforma de analítica de logs con IA Generativa (infraestructura y aplicación)
+- Entrega del ciclo E2E de KPIs: ingesta → procesamiento → dashboards, en coordinación con stakeholders
+- Automatizaciones CI/CD en Azure Pipelines, Jenkins y GitHub Actions
+- Mejoras de Developer Experience mediante plataforma interna y aceleradores
 
 ---
 
 ## 🎓 Educación
-**Eötvös Loránd University** – Grado en Ciencias de la Computación  
-**Universitat Politècnica de València (UPV)** – Intercambio Erasmus
+**Eötvös Loránd University** — Grado en Ciencias de la Computación  
+**Universitat Politècnica de València (UPV)** — Intercambio Erasmus
 
 ---
 
 ## 🛠 Habilidades
-**Técnicas:** Arquitectura de Sistemas, DevOps, Clean Code, Escalado, GPU Cloud Functions, IA Generativa, Definición de KPIs, Creación de POCs  
-**Técnicas/Prácticas:** Planificación de Soluciones, Configuración, TDD, Testing Automatizado, Depuración, Enfoque Cloud-Native, Contenerización, Optimización, 8D, Planificación de Features  
-**Herramientas:** Go, Python, Terraform, Kubernetes, Modal, Oracle Cloud, Azure, OpenAI, DrawIO, Cloudflare, Git, HTML, CSS, Svelte, Node, JavaScript, Prometheus, OpenTelemetry, MongoDB, CosmosDB, Redis, ServiceBus, Bitbucket, GitHub, Azure DevOps, Jenkins  
-**Otros:** Gestión de Ciclo de Vida de Producto, Ágil, Kanban, SCRUM, Cálculo ROI, Cálculo Lead Time, Transferencia de Conocimiento, Transparencia
+
+**Cloud & Arquitectura:** Arquitectura cloud y diseño de migraciones agnósticos al proveedor, AWS (diseño Well-Architected, Bedrock, Bedrock AgentCore), Azure, Oracle Cloud (OCI), On-premises a cloud, Arquitectura de Sistemas, Diseño Cloud-Native, Optimización de coste y rendimiento, Auditorías de infraestructura y software  
+**Ingeniería de IA:** IA Generativa, Workflows multi-agente, Sistemas agénticos, RAG, Integración de LLMs, Entrega de POCs de GenAI  
+**Ingeniería:** Go, Python, Terraform, Kubernetes, Docker, Prometheus, OpenTelemetry, MongoDB, CosmosDB, Redis, ServiceBus, Node.js, JavaScript, Svelte, HTML, CSS  
+**Plataformas y Herramientas:** AWS, Azure, Oracle Cloud, Cloudflare, Modal (GPU serverless), OpenAI, DrawIO, Git, GitHub, Bitbucket, Azure DevOps, Jenkins, Azure Pipelines, GitHub Actions  
+**Prácticas:** Clean Code, TDD, Testing Automatizado, Depuración, Contenerización, Planificación de soluciones y funcionalidades, 8D, Kanban, SCRUM, Ágil, Transferencia de conocimiento, Cálculo de ROI y Lead Time
 
 ---
 
 ## 🧩 Intereses
-Ajedrez, Boulder, Boxeo, Fútbol, Videojuegos, Desarrollo de Juegos, Lectura
+Ajedrez, boulder, boxeo, fútbol, videojuegos, desarrollo de videojuegos y lectura.
 
 ---
 
@@ -70,4 +85,4 @@ Ajedrez, Boulder, Boxeo, Fútbol, Videojuegos, Desarrollo de Juegos, Lectura
 [Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
-Puedo enviar una versión PDF de mi CV si la necesitas.
+Puedo enviar una versión PDF de mi CV bajo petición.

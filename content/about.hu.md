@@ -1,6 +1,6 @@
 +++
 title = "Rólam"
-description = "Vargha Csongor Csaba – Felhő fejlesztő"
+description = "Vargha Csongor Csaba – Felhő és AI mérnök"
 slug = "about"
 aliases = ["rolam", "bemutatkozas"]
 author = "Vargha Csongor Csaba"
@@ -9,60 +9,75 @@ toc = true
 
 # Szia, Csongor vagyok
 
-Felhőfejlesztőként cloud-native rendszereket tervezek, fejlesztek és tartok karban. Könnyen együttműködöm csapatokkal, de önállóan is hatékonyan dolgozom. Fontos számomra a kódminőség, a fejlesztői élmény és a kézzelfogható üzleti érték. A professzionalizmus, az innováció és a minőség iránti elkötelezettség vezérel.
+Felhő- és AI-mérnökként megbízható, költséghatékony és megfigyelhető rendszereket szállítok AWS, Azure, Oracle Cloud és on-premises környezetekben. Szolgáltatófüggetlenül dolgozom, és bármilyen platformra vállalok megbízásokat – jelenleg mélyen elmerülve az AWS Bedrockban és Bedrock AgentCore-ban az Apex Lab alvállalkozói munkáim keretében. Szervezeteket segítek felhő-architektúrában, migrációkban és alkalmazott generatív AI-ban a greenfield platformoktól a meglévő környezetek modernizálásáig, és egyaránt hatékonyan dolgozom a csapat részeként vagy független mérnökként.
 
 ---
 
 ## 🚀 Főbb Eredmények
 
 | Terület | Kiemelések |
-|--------|------------|
-| Termék & Szállítás | Több csapattal és ügyféllel együttműködve 2 új termék + 3 új funkció (~300k€ költségkeret) |
-| Platform & DX | Belső data-analitikai platform fejlesztése és infrastruktúra fejlesztések -> gyorsabb fejlesztés |
-| Modernizáció | 2–3 kódbázis refaktorálása/újraírása SOLID elvek mentén |
-| Innováció | LLM és Generatív AI belső kezdeményezésekben vezető szerep |
-| Architektúra | Monolitikus adatfolyam → mikroszervizek (Argo Workflows) |
+|---------|------------|
+| Felhő architektúra | Szolgáltatófüggetlen greenfield architektúrák és migrációs tervek on-premises és bármelyik nagy felhőszolgáltató (AWS, Azure, OCI) között, amelyek megbízhatóságban, teljesítményben és költségben elérik vagy felülmúlják a kiinduló rendszereket |
+| AWS specializáció | AWS-natív architektúrák és átgondolt migrációs architektúrák AWS-re, az AWS Well-Architected Framework alapján, jelenleg az Apex Lab keretein belül |
+| Alkalmazott GenAI | Multi-agent workflow POC-k és generatív AI megoldások AWS Bedrock és Bedrock AgentCore felett, más szolgáltatókra is átvihető mintákkal |
+| Termék & Szállítás | Több csapatos és ügyféloldali együttműködés: 2 új termék és 3 új funkció (~300k€ költségkeret biztosítása) |
+| Platform & DX | Belső platform funkciók és infrastruktúra egy data-analitikai platformhoz – gyorsabb szállítás és jobb fejlesztői élmény |
+| Modernizáció | 2–3 kódbázis refaktorálása és újraírása SOLID elvek mentén |
+| Innováció | LLM-ek és generatív AI (köztük RAG és log-intelligencia) korai adaptálása belső innovációs programokon keresztül |
+| Architektúra | Monolitikus adatfolyam szétbontása skálázható mikroszervizekre Argo Workflows segítségével; aszinkron, biztonságos feldolgozás on-premises klaszteren |
 
 ---
 
-## 💼 Profeszionális Tapasztalataim
+## 💼 Szakmai Tapasztalat
 
-### Robert Bosch Kft. (2022 Q4 – Jelenleg)  
+### Apex Lab — AWS Contracting Agency (2025. november – Jelenleg)
+**Felhő és AI mérnök alvállalkozó**  
+AWS-fókuszú mérnöki megbízások: infrastruktúra auditok, greenfield architektúra, felhőmigrációk és alkalmazott generatív AI.
+
+#### Főbb tevékenységek
+- Meglévő infrastruktúra és szoftverek auditja, konkrét ajánlásokkal megbízhatóságra, biztonságra, üzemeltethetőségre és költségoptimalizálásra
+- AWS-natív referencia architektúrák tervezése greenfield projektekhez az AWS Well-Architected Framework szerint
+- On-premises és más felhőkörnyezetekből AWS-re történő migrációk újratervezése; olyan célállapotok kialakítása, amelyek megbízhatóságban, teljesítményben és költségben elérik vagy meghaladják a kiinduló rendszereket
+- Generatív AI proof-of-concept megoldások – köztük multi-agent workflow-k és ágens alapú rendszerek – felépítése AWS Bedrock és Bedrock AgentCore használatával
+
+### Robert Bosch Kft. (2022 Q4 – 2025. november)
 **Cloud Developer & Business Application Developer**  
-Metron – KPI keretrendszer és adat aggregáló rendszer (VCS, ticket, CI/CD pipeline adatok elemzésre & riportokra).
+Közreműködés a Metron projektben – KPI keretrendszer és adat-aggregáló rendszer (a DevLake-hez hasonló), amely VCS, ticketing és CI/CD pipeline adatokat dolgoz fel mérnököknek, menedzsereknek és vezetőknek szóló dashboardok és KPI riportok előállítása érdekében.
 
 #### Technikai Hatás
-- Go & Python szolgáltatások refaktorálása (karbantarthatóság, párhuzamosság, megfigyelhetőség)
-- Adat pipeline újratervezése → mikroszerviz alapokra (Argo Workflows)
-- Aszinkron biztonságos feldolgozás on-prem klaszteren
-- Migrációk különböző felhőkörnyezetek között
-- Instrumentáció (Prometheus, OpenTelemetry)
+- Go és Python szolgáltatások refaktorálása (karbantarthatóság, megfigyelhetőség, párhuzamosság, cloud-native működés)
+- Monolitikus adatfolyam újratervezése skálázható mikroszerviz architektúrára (Argo Workflows)
+- Aszinkron, biztonságos feldolgozás on-premises klaszteren
+- Alkalmazások és infrastruktúra migrációja felhőkörnyezetek között
+- Műszerezés Prometheus és OpenTelemetry használatával, strukturált naplózás
 
 #### Innováció & Szállítás
-- RAG chat belső dokumentációra
-- Generatív AI log analitika platform koncepció
-- KPI életciklus végponttól végpontig megvalósítása
-- CI/CD automatizációk (Azure, Jenkins, GitHub Actions)
-- Fejlesztői élmény és belső platform fejlesztések
+- RAG-alapú chat belső dokumentációra, vezetői szintű bemutatóval egy belső innovációs program keretében
+- Generatív AI log-analitika platform koncepció (infrastruktúra és alkalmazás szinten)
+- KPI életciklus végponttól végpontig történő szállítása – adatbetöltés → feldolgozás → dashboardok – szoros stakeholder együttműködéssel
+- CI/CD automatizációk Azure Pipelines, Jenkins és GitHub Actions környezetben
+- Fejlesztői élmény javítása belső platform funkciókon és gyorsítókon keresztül
 
 ---
 
 ## 🎓 Oktatás
-**Eötvös Loránd Tudományegyetem** – BSc Programtervező informatikus  
-**Universitat Politècnica de València (UPV)** – Erasmus ösztöndíj (BSc)
+**Eötvös Loránd Tudományegyetem** — BSc Programtervező Informatikus  
+**Universitat Politècnica de València (UPV)** — Erasmus ösztöndíj (BSc)
 
 ---
 
 ## 🛠 Készségek
-**Technikai:** Rendszerarchitektúra, DevOps, Clean Code, Skálázás, GPU Cloud functions, Generatív AI, KPI definíció, POC  
-**Módszerek:** Tervezés, Konfiguráció, TDD, Automatizált tesztelés, Debug, Cloud-Native megközelítés, Konténerizáció, Optimalizálás, 8D, Funkciótervezés  
-**Eszközök:** Go, Python, Terraform, Kubernetes, Modal, Oracle Cloud, Azure, OpenAI, DrawIO, Cloudflare, Git, HTML, CSS, Svelte, Node, JavaScript, Prometheus, OpenTelemetry, MongoDB, CosmosDB, Redis, ServiceBus, Bitbucket, GitHub, Azure DevOps, Jenkins  
-**Egyéb:** Termékéletciklus menedzsment, Agilis, Kanban, SCRUM, ROI számítás, Lead Time számítás, Tudásmegosztás, Átláthatóság
+
+**Felhő & Architektúra:** Szolgáltatófüggetlen felhő-architektúra és migrációs tervezés, AWS (Well-Architected tervezés, Bedrock, Bedrock AgentCore), Azure, Oracle Cloud (OCI), On-premises → felhő, Rendszerarchitektúra, Cloud-Native tervezés, Költség- és teljesítményoptimalizáció, Infrastruktúra- és szoftverauditok  
+**AI mérnökség:** Generatív AI, Multi-agent workflow-k, Ágens alapú rendszerek, RAG, LLM integráció, GenAI POC szállítás  
+**Fejlesztés:** Go, Python, Terraform, Kubernetes, Docker, Prometheus, OpenTelemetry, MongoDB, CosmosDB, Redis, ServiceBus, Node.js, JavaScript, Svelte, HTML, CSS  
+**Platformok & Eszközök:** AWS, Azure, Oracle Cloud, Cloudflare, Modal (serverless GPU), OpenAI, DrawIO, Git, GitHub, Bitbucket, Azure DevOps, Jenkins, Azure Pipelines, GitHub Actions  
+**Gyakorlatok:** Clean Code, TDD, Automatizált tesztelés, Debuggolás, Konténerizáció, Megoldás- és funkciótervezés, 8D, Kanban, SCRUM, Agilis, Tudásmegosztás, ROI és Lead Time elemzés
 
 ---
 
 ## 🧩 Hobbik
-Sakk, Bouldering, Boksz, Foci, Videójátékok, Játékfejlesztés, Olvasás
+Sakk, bouldering, boksz, foci, videójátékok, játékfejlesztés és olvasás.
 
 ---
 
@@ -70,4 +85,4 @@ Sakk, Bouldering, Boksz, Foci, Videójátékok, Játékfejlesztés, Olvasás
 [Email](mailto:varghacsongorcsaba@gmail.com) • [LinkedIn](https://www.linkedin.com/in/varghacsongorcsaba/) • [GitHub](https://github.com/vcscsvcscs)
 
 ---
-Szívesen küldök PDF verziójú önéletrajzot kérésre.
+PDF formátumú önéletrajzot kérésre küldök.
