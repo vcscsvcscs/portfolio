@@ -29,7 +29,7 @@ summary = "Cloud & AI Engineer delivering architecture, migrations and applied G
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Csongor Csaba Vargha's portfolio — Cloud & AI Engineer, provider-agnostic (AWS, Azure, OCI) with a current AWS Bedrock and Bedrock AgentCore specialization"
 keywords = "cloud,data,ai,mlops,developer,portfolio,software,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,genai,bedrock,agentcore,architecture,migration,engineer,contractor"
-info = ["Cloud & AI Engineer", "Cloud Developer", "Provider-agnostic • AWS • Azure • OCI • Bedrock", "Budapest"]
+info = ["Cloud & AI Engineer", "Cloud Developer", "AWS • Azure • OCI • Bedrock", "Budapest"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "varghacsongorcsaba@gmail.com"
 dateFormat = "January 2, 2006"
@@ -213,7 +213,7 @@ title = "Csongor Csaba Vargha"
 
 [languages.fi.params]
 author = "Csongor Csaba Vargha"
-info = ["Cloud & AI -insinööri", "Pilvipalvelu Kehittäjä", "Toimittajasta riippumaton • AWS • Azure • OCI • Bedrock", "Budapest"]
+info = ["Cloud & AI -insinööri", "Pilvipalvelu Kehittäjä", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Csongor Csaba Varghan portfolio — Cloud & AI -insinööri, toimittajasta riippumaton (AWS, Azure, OCI) ja erikoistunut AWS Bedrockiin sekä Bedrock AgentCoreen"
 keywords = "pilvi,kehittäjä,ohjelmisto,portfolio,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,ai,genai,bedrock,agentcore,arkkitehtuuri,migraatio,insinööri"
 
@@ -243,7 +243,7 @@ title = "Csongor Csaba Vargha"
 
 [languages.hu.params]
 author = "Csongor Csaba Vargha"
-info = ["Felhő és AI mérnök", "Felhő fejlesztő", "Szolgáltatófüggetlen • AWS • Azure • OCI • Bedrock", "Budapest"]
+info = ["Felhő és AI mérnök", "Felhő fejlesztő", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Vargha Csongor Csaba portfóliója — Felhő és AI mérnök, szolgáltatófüggetlen (AWS, Azure, OCI), jelenlegi AWS Bedrock és Bedrock AgentCore specializációval"
 keywords = "felhő,fejlesztő,szoftver,portfólió,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,ai,genai,bedrock,agentcore,architektúra,migráció,mérnök"
 
@@ -273,7 +273,7 @@ title = "Csongor Csaba Vargha"
 
 [languages.de.params]
 author = "Csongor Csaba Vargha"
-info = ["Cloud & AI Engineer", "Cloud Entwickler", "Anbieterunabhängig • AWS • Azure • OCI • Bedrock", "Budapest"]
+info = ["Cloud & AI Engineer", "Cloud Entwickler", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Portfolio von Csongor Csaba Vargha — Cloud & AI Engineer, anbieterunabhängig (AWS, Azure, OCI) mit aktueller Spezialisierung auf AWS Bedrock und Bedrock AgentCore"
 keywords = "cloud,entwickler,software,portfolio,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,ai,genai,bedrock,agentcore,architektur,migration,engineer"
 
@@ -303,7 +303,7 @@ title = "Csongor Csaba Vargha"
 
 [languages.es.params]
 author = "Csongor Csaba Vargha"
-info = ["Ingeniero Cloud & IA", "Desarrollador Cloud", "Agnóstico al proveedor • AWS • Azure • OCI • Bedrock", "Budapest"]
+info = ["Ingeniero Cloud & IA", "Desarrollador Cloud", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Portafolio de Csongor Csaba Vargha — Ingeniero Cloud & IA, agnóstico al proveedor (AWS, Azure, OCI) con especialización actual en AWS Bedrock y Bedrock AgentCore"
 keywords = "cloud,desarrollador,software,portafolio,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,ia,genai,bedrock,agentcore,arquitectura,migración,ingeniero"
 
