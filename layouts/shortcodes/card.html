@@ -1,0 +1,21 @@
+{{- $title := .Get "title" | default "" -}}
+{{- $icon := .Get "icon" | default "" -}}
+
+<div class="svc-card">
+  {{- if or $title $icon -}}
+    <div class="svc-card__header">
+      {{- if $icon -}}
+        <span class="svc-card__icon" aria-hidden="true">
+          <i class="{{ $icon }}"></i>
+        </span>
+      {{- end -}}
+      {{- if $title -}}
+        <h3 class="svc-card__title">{{ $title }}</h3>
+      {{- end -}}
+    </div>
+  {{- end -}}
+
+  <div class="svc-card__body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

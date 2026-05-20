@@ -1,2 +1,3 @@
 [tools]
-hugo = "latest"
+# hugo-coder compiles SCSS (coder.scss) — requires Extended, not standard Hugo
+hugo-extended = "latest"

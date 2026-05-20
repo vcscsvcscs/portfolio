@@ -1,7 +1,7 @@
-baseURL = "https://vcscsvcscs.github.io/" # Adjust to your actual deployed URL
+baseURL = "https://varghacsongor.hu/"
 title = "Csongor Csaba Vargha"
 theme = "hugo-coder"
-languageCode = "en"
+locale = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
 
@@ -34,8 +34,8 @@ avatarURL = "images/avatar.jpg"
 #gravatar = "varghacsongorcsaba@gmail.com"
 dateFormat = "January 2, 2006"
 since = 2022
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Git Commit in Footer (disabled)
+# commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languages such as Arabic
 rtl = false
 # Specify light/dark colorscheme
@@ -49,7 +49,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
-customCSS = []
+customCSS = ["css/services-cards.css"]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
 
@@ -184,7 +184,7 @@ rel = "alternate"
 type = "application/rss+xml"
 
 [languages.en]
-languageName = ":uk:"
+label = ":uk:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -202,13 +202,18 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
+name = "Services"
+weight = 4
+url = "services/"
+
+[[languages.en.menu.main]]
 name = "Contact me"
 weight = 5
 url = "contact/"
 
 
 [languages.fi]
-languageName = ":finland:"
+label = ":finland:"
 title = "Csongor Csaba Vargha"
 
 [languages.fi.params]
@@ -233,12 +238,17 @@ weight = 3
 url = "projects/"
 
 [[languages.fi.menu.main]]
+name = "Palvelut"
+weight = 4
+url = "services/"
+
+[[languages.fi.menu.main]]
 name = "Yhteys"
 weight = 5
 url = "contact/"
 
 [languages.hu]
-languageName = ":hungary:"
+label = ":hungary:"
 title = "Csongor Csaba Vargha"
 
 [languages.hu.params]
@@ -263,12 +273,17 @@ weight = 3
 url = "projects/"
 
 [[languages.hu.menu.main]]
+name = "Szolgáltatások"
+weight = 4
+url = "services/"
+
+[[languages.hu.menu.main]]
 name = "Kapcsolat"
 weight = 5
 url = "contact/"
 
 [languages.de]
-languageName = ":de:"
+label = ":de:"
 title = "Csongor Csaba Vargha"
 
 [languages.de.params]
@@ -293,12 +308,17 @@ weight = 3
 url = "projects/"
 
 [[languages.de.menu.main]]
+name = "Dienstleistungen"
+weight = 4
+url = "services/"
+
+[[languages.de.menu.main]]
 name = "Kontakt"
 weight = 5
 url = "contact/"
 
 [languages.es]
-languageName = ":es:"
+label = ":es:"
 title = "Csongor Csaba Vargha"
 
 [languages.es.params]
@@ -321,6 +341,11 @@ url = "posts/"
 name = "Proyectos"
 weight = 3
 url = "projects/"
+
+[[languages.es.menu.main]]
+name = "Servicios"
+weight = 4
+url = "services/"
 
 [[languages.es.menu.main]]
 name = "Contacto"
