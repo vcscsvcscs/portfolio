@@ -186,6 +186,9 @@ type = "application/rss+xml"
 [languages.en]
 label = ":uk:"
 
+[languages.en.params]
+label = ":uk:"
+
 [[languages.en.menu.main]]
 name = "About"
 weight = 1
@@ -217,6 +220,7 @@ label = ":finland:"
 title = "Csongor Csaba Vargha"
 
 [languages.fi.params]
+label = ":finland:"
 author = "Csongor Csaba Vargha"
 info = ["Cloud & AI -insinööri", "Pilvipalvelu Kehittäjä", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Csongor Csaba Varghan portfolio — Cloud & AI -insinööri, toimittajasta riippumaton (AWS, Azure, OCI) ja erikoistunut AWS Bedrockiin sekä Bedrock AgentCoreen"
@@ -252,6 +256,7 @@ label = ":hungary:"
 title = "Csongor Csaba Vargha"
 
 [languages.hu.params]
+label = ":hungary:"
 author = "Csongor Csaba Vargha"
 info = ["Felhő és AI mérnök", "Felhő fejlesztő", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Vargha Csongor Csaba portfóliója — Felhő és AI mérnök, szolgáltatófüggetlen (AWS, Azure, OCI), jelenlegi AWS Bedrock és Bedrock AgentCore specializációval"
@@ -287,6 +292,7 @@ label = ":de:"
 title = "Csongor Csaba Vargha"
 
 [languages.de.params]
+label = ":de:"
 author = "Csongor Csaba Vargha"
 info = ["Cloud & AI Engineer", "Cloud Entwickler", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Portfolio von Csongor Csaba Vargha — Cloud & AI Engineer, anbieterunabhängig (AWS, Azure, OCI) mit aktueller Spezialisierung auf AWS Bedrock und Bedrock AgentCore"
@@ -322,6 +328,7 @@ label = ":es:"
 title = "Csongor Csaba Vargha"
 
 [languages.es.params]
+label = ":es:"
 author = "Csongor Csaba Vargha"
 info = ["Ingeniero Cloud & IA", "Desarrollador Cloud", "AWS • Azure • OCI • Bedrock", "Budapest"]
 description = "Portafolio de Csongor Csaba Vargha — Ingeniero Cloud & IA, agnóstico al proveedor (AWS, Azure, OCI) con especialización actual en AWS Bedrock y Bedrock AgentCore"

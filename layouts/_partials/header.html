@@ -30,7 +30,7 @@
                 {{ $node.Scratch.Set "separator" false }}
               {{ end }}
               <li class="navigation-item">
-                <a href="{{ .RelPermalink }}">{{ .Language.Label | emojify }}</a>
+                <a href="{{ .RelPermalink }}">{{ (.Site.Params.label | default .Language.LanguageName) | emojify }}</a>
               </li>
             {{ end }}
           {{ end }}
