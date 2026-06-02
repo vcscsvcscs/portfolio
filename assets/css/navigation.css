@@ -1,0 +1,104 @@
+/* Inline nav only when there is room for long DE/HU/ES menu labels (theme default: 768px) */
+@media only screen and (min-width: 1101px) {
+  .navigation #menu-toggle,
+  .navigation .menu-button {
+    display: none !important;
+  }
+
+  .navigation .navigation-list {
+    visibility: visible !important;
+    opacity: 1 !important;
+    max-height: none !important;
+    width: auto !important;
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+    float: right !important;
+  }
+
+  .navigation .navigation-item {
+    float: left !important;
+  }
+}
+
+/* Collapsible menu up to 1100px — avoids title/menu wrap with long translations */
+@media only screen and (max-width: 1100px) {
+  .navigation #menu-toggle {
+    display: initial !important;
+    position: relative !important;
+    visibility: hidden !important;
+  }
+
+  .navigation .menu-button {
+    display: block !important;
+    position: relative !important;
+    font-size: 2.4rem !important;
+    font-weight: 400 !important;
+  }
+
+  .navigation .navigation-list {
+    position: relative !important;
+    top: 2rem !important;
+    right: 0 !important;
+    z-index: 5 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    max-height: 0 !important;
+    width: 100% !important;
+    float: right !important;
+    list-style: none !important;
+    transition: opacity 0.25s, max-height 0.15s linear !important;
+  }
+
+  .navigation #menu-toggle:checked + label + .navigation-list {
+    visibility: visible !important;
+    opacity: 1 !important;
+    max-height: 100rem !important;
+  }
+
+  .navigation .navigation-item {
+    float: none !important;
+    text-align: center !important;
+  }
+
+  .navigation .navigation-item a,
+  .navigation .navigation-item span {
+    line-height: 5rem !important;
+  }
+
+  .navigation .menu-separator {
+    border-top: 2px solid currentColor !important;
+    margin: 0 8rem !important;
+  }
+
+  .navigation .menu-separator span {
+    display: none !important;
+  }
+}
+
+/* Tighter spacing on wide screens for languages with longer menu words */
+@media only screen and (min-width: 1101px) and (max-width: 1400px) {
+  html[lang="de"] .navigation a,
+  html[lang="de"] .navigation span,
+  html[lang="hu"] .navigation a,
+  html[lang="hu"] .navigation span,
+  html[lang="es"] .navigation a,
+  html[lang="es"] .navigation span,
+  html[lang="fi"] .navigation a,
+  html[lang="fi"] .navigation span {
+    font-size: 1.5rem;
+  }
+
+  html[lang="de"] .navigation .navigation-item a,
+  html[lang="de"] .navigation .navigation-item span,
+  html[lang="hu"] .navigation .navigation-item a,
+  html[lang="hu"] .navigation .navigation-item span,
+  html[lang="es"] .navigation .navigation-item a,
+  html[lang="es"] .navigation .navigation-item span,
+  html[lang="fi"] .navigation .navigation-item a,
+  html[lang="fi"] .navigation .navigation-item span {
+    margin-left: 0.65rem;
+    margin-right: 0.65rem;
+  }
+}

@@ -1,8 +1,8 @@
 <nav class="navigation">
   <section class="container">
     {{ with .Site }}
-    <a class="navigation-title" href="{{ .Home.RelPermalink }}">
-      {{ .Title }}
+    <a class="navigation-title" href="{{ absLangURL "" }}">
+      {{ .Params.navTitle | default .Title }}
     </a>
     {{ end }}
     {{ if or .Site.Menus.main hugo.IsMultilingual }}
@@ -19,18 +19,27 @@
           {{ end }}
         {{ end }}
         {{ if hugo.IsMultilingual }}
-          {{ $node := . }}
-          {{ .Scratch.Set "separator" true }}
-          {{ range (default .Site.Home.AllTranslations .Translations) }}
-            {{ if ne $.Site.Language .Language }}
-              {{ if $node.Scratch.Get "separator" }}
+          {{ $page := . }}
+          {{ $currentLang := .Site.Language.Lang }}
+          {{ $scratch := .Scratch }}
+          {{ $scratch.Set "separator" true }}
+          {{ range sort site.Sites "Language.Lang" }}
+            {{ if ne .Language.Lang $currentLang }}
+              {{ if $scratch.Get "separator" }}
                 <li class="navigation-item menu-separator">
                   <span>|</span>
                 </li>
-                {{ $node.Scratch.Set "separator" false }}
+                {{ $scratch.Set "separator" false }}
               {{ end }}
+              {{- $siteLang := .Language.Lang -}}
+              {{- $href := .Home.RelPermalink -}}
+              {{- range $page.Translations -}}
+                {{- if eq .Language.Lang $siteLang -}}
+                  {{- $href = .RelPermalink -}}
+                {{- end -}}
+              {{- end -}}
               <li class="navigation-item">
-                <a href="{{ .RelPermalink }}">{{ (.Site.Params.label | default .Language.LanguageName) | emojify }}</a>
+                <a href="{{ $href }}">{{ (.Params.label | default .Language.LanguageName) | emojify }}</a>
               </li>
             {{ end }}
           {{ end }}

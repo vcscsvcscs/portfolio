@@ -22,6 +22,7 @@ noClasses = false
 unsafe = true
 
 [params]
+navTitle = "Csongor Vargha"
 author = "Csongor Csaba Vargha"
 designation = "Cloud & AI Engineer"
 location = "Budapest, Hungary"
@@ -49,7 +50,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
-customCSS = ["css/services-cards.css"]
+customCSS = ["css/navigation.css", "css/services-cards.css"]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
 
@@ -187,6 +188,7 @@ type = "application/rss+xml"
 label = ":uk:"
 
 [languages.en.params]
+navTitle = "Csongor Vargha"
 label = ":uk:"
 
 [[languages.en.menu.main]]
@@ -220,6 +222,7 @@ label = ":finland:"
 title = "Csongor Csaba Vargha"
 
 [languages.fi.params]
+navTitle = "Csongor Vargha"
 label = ":finland:"
 author = "Csongor Csaba Vargha"
 info = ["Cloud & AI -insinööri", "Pilvipalvelu Kehittäjä", "AWS • Azure • OCI • Bedrock", "Budapest"]
@@ -256,6 +259,7 @@ label = ":hungary:"
 title = "Csongor Csaba Vargha"
 
 [languages.hu.params]
+navTitle = "Csongor Vargha"
 label = ":hungary:"
 author = "Csongor Csaba Vargha"
 info = ["Felhő és AI mérnök", "Felhő fejlesztő", "AWS • Azure • OCI • Bedrock", "Budapest"]
@@ -278,7 +282,7 @@ weight = 3
 url = "projects/"
 
 [[languages.hu.menu.main]]
-name = "Szolgáltatások"
+name = "Szolgáltatás"
 weight = 4
 url = "services/"
 
@@ -292,6 +296,7 @@ label = ":de:"
 title = "Csongor Csaba Vargha"
 
 [languages.de.params]
+navTitle = "Csongor Vargha"
 label = ":de:"
 author = "Csongor Csaba Vargha"
 info = ["Cloud & AI Engineer", "Cloud Entwickler", "AWS • Azure • OCI • Bedrock", "Budapest"]
@@ -314,7 +319,7 @@ weight = 3
 url = "projects/"
 
 [[languages.de.menu.main]]
-name = "Dienstleistungen"
+name = "Leistungen"
 weight = 4
 url = "services/"
 
@@ -328,6 +333,7 @@ label = ":es:"
 title = "Csongor Csaba Vargha"
 
 [languages.es.params]
+navTitle = "Csongor Vargha"
 label = ":es:"
 author = "Csongor Csaba Vargha"
 info = ["Ingeniero Cloud & IA", "Desarrollador Cloud", "AWS • Azure • OCI • Bedrock", "Budapest"]
@@ -335,7 +341,7 @@ description = "Portafolio de Csongor Csaba Vargha — Ingeniero Cloud & IA, agn�
 keywords = "cloud,desarrollador,software,portafolio,aws,azure,oracle-cloud,oci,multi-cloud,modal,serverless-gpu,gpu,ia,genai,bedrock,agentcore,arquitectura,migración,ingeniero"
 
 [[languages.es.menu.main]]
-name = "Acerca de"
+name = "Sobre"
 weight = 1
 url = "about/"
 
