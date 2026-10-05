@@ -10,7 +10,7 @@ categories = ["hackathons"]
 ## HackYeah 2026
 **3.–4. Oktober 2026**  
 **TAURON Arena Kraków**  
-24-Stunden-Hackathon vor Ort · der größte Präsenz-Hackathon Europas · 3000 Teilnehmende · Teams von 1 bis 6 · Teilnahme ab 18
+24-Stunden-Hackathon vor Ort · der größte Präsenz-Hackathon Europas · 3000 Teilnehmende
 
 Das Wochenende verbrachte ich beim **HackYeah 2026** mit **Fábi Tamás** und **Magyar Dániel**. Als **Apexlab** traten wir bei der offenen Aufgabe **Smart City** an.
 

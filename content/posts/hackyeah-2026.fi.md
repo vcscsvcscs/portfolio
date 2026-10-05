@@ -10,7 +10,7 @@ categories = ["hackathons"]
 ## HackYeah 2026
 **3.–4. lokakuuta 2026**  
 **TAURON Arena Kraków**  
-24 tunnin lähitapahtuma · Euroopan suurin paikan päällä järjestettävä hackathon · 3000 osallistujaa · 1–6 hengen tiimit · jokainen osallistuja vähintään 18-vuotias
+24 tunnin lähitapahtuma · Euroopan suurin paikan päällä järjestettävä hackathon · 3000 osallistujaa
 
 Vietin viikonlopun **HackYeah 2026** -tapahtumassa **Fábi Tamásin** ja **Magyar Dánielin** kanssa. Kilpailimme nimellä **Apexlab** avoimessa **Smart City** -tehtävässä.
 

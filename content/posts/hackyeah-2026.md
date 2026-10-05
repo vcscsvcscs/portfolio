@@ -11,7 +11,7 @@ categories = ["hackathons"]
 
 **October 3–4, 2026**  
 **TAURON Arena Kraków**  
-24-hour on-site hackathon · the biggest stationary hackathon in Europe · 3000 participants · teams of 1 to 6 · every participant 18+
+24-hour on-site hackathon · the biggest stationary hackathon in Europe · 3000 participants
 
 I spent the weekend at **HackYeah 2026** with **Fábi Tamás** and **Magyar Dániel**. We competed as **Apexlab** on the **Smart City** open task.
 

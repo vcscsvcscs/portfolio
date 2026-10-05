@@ -10,7 +10,7 @@ categories = ["hackathons"]
 ## HackYeah 2026
 **3 y 4 de octubre de 2026**  
 **TAURON Arena Kraków**  
-Hackathon presencial de 24 horas · el mayor hackathon presencial de Europa · 3000 participantes · equipos de 1 a 6 · todos los participantes mayores de 18 años
+Hackathon presencial de 24 horas · el mayor hackathon presencial de Europa · 3000 participantes
 
 Pasé el fin de semana en el **HackYeah 2026** con **Fábi Tamás** y **Magyar Dániel**. Competimos como **Apexlab** en el reto abierto de **Smart City**.
 
